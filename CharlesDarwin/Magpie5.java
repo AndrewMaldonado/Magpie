@@ -123,6 +123,10 @@ public class Magpie5
         {
             response = "People like me have evolved and are genetically superior those those behind the curve.";
         }
+        else if (findKeyword(statement, "Hi") >=0)
+        {
+            response = "Hello";
+        }
         else if (findKeyword(statement, "mother") >= 0
                 || findKeyword(statement, "father") >= 0
                 || findKeyword(statement, "sister") >= 0
@@ -348,7 +352,7 @@ public class Magpie5
             "Haha",
             "e",
             "your mother",
-            "Wanna a break from the ads?",
+            "Want a break from the ads?",
             "You don't say."
     };
     
